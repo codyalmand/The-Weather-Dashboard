@@ -21,16 +21,19 @@ $(document).ready(function() {
       searches.unshift(searchText);
       storeSearches();
       $("#searchList").prepend("<li>" + searchText + "</li>");
-
     });
   }
+
+    $("#clearButton").on("click", function (){
+      localStorage.clear();
+      location.reload();
+    });
 
   function renderSearches() {
 
     for (var i = 0; i < searches.length; i++) {
       var search = searches[i];
       $("#searchList").prepend("<li>" + search + "</li>");
-
     }
   }
 
