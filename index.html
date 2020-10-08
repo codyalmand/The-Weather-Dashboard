@@ -13,25 +13,31 @@
     <title> Weather Dashboard</title>    
 </head>
 <body>
-    <section class= "content-box-one"><br><h1><i class="fas fa-cloud-sun"></i> Weather Dashboard</h1>
-    </section>
-    <section class="weatherData">
-        <aside id="search">
+    <section class= "content-box-one"><br><h1><i class="fas fa-cloud-sun"></i> Weather Dashboard</h1></section>
+
+    <section class="row" id="weatherData">
+
+        <section id="search">
             <h3>Search for a city:</h3>
-                
-            <input id="searchInput" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button id="searchButton" class="btn btn-dark" type="submit">Search</button>
-            <ul id="searchList"></ul>
-            <button id="clearButton">Clear</button>
-        </aside>
-        <aside id="ctInfo">
-            <article id="city"></article>
-            <article id="temp"></article>
-        </aside>
+                <input id="searchInput" class="form-control mr-md-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="searchButton" class="btn btn-dark" type="submit">Search</button>
+                <ul id="searchList"></ul>
+                <button id="clearButton">Clear Searches</button>
+        </section> 
 
-
-
+            <aside class="row" id="weatherInfo">
+                <h1>City Name = </h1>
+                    <h1 class="column medium-3" id="city"></h1>
+                <h1>Temperature = </h1>
+                    <h1 class="column medium-3" id="temp"></h1>
+                <h1>Humidity = </h1>
+                    <h1 class="column medium-3" id="humidity"></h1>
+                <h1>Wind Speed = </h1>
+                    <h1 class="column medium-3" id="wind"></h1>
+            </aside>
+    
     </section>
+
     <script src= "script.js"></script>
 </body>
 </html>

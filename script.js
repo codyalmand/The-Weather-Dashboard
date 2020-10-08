@@ -44,6 +44,8 @@ $(document).ready(function() {
   function printTodayValues(today) {
     $("#city").text(today.name);
     $("#temp").text(today.main.temp);
+    $("#humidity").text(today.main.humidity);
+    $("#wind").text(today.wind.speed);
   }
 
   function getTodayWeatherData(city) {
@@ -62,5 +64,4 @@ $(document).ready(function() {
         $("#error").text(JSON.parse(e.responseText).message);
       });
   }
-
 });

@@ -10,7 +10,7 @@ body {
     background: url(weather.jpg);
 }
 
-#search {
+#searchInput {
     width: 300px;
 }
 
@@ -18,33 +18,33 @@ body {
     width: 300px;
     color: rgb(255, 255, 255);
     background-color: rgb(3, 4, 58);
-    width: 300px;
+    border-radius: 10px;
 }
 
-#ctInfo {
-    border: solid;
-    border-color: rgb(3, 4, 58);
-    margin-left:50px;
-    width: 55%;
-    padding: 200px;
-    background-color:rgb(255, 255, 255);
-    font-size: 50px;
+#weatherInfo {
+    
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 600px;
+    height: 530px;
+    padding: 100px;
+    background-color:rgba(255, 255, 255, 0.767);
+    font-size: 40px;
+    
 }
 
 li {
+    border-radius: 10px;
    list-style: none;
-    margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px;
-    padding-left: 90px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0.774);
     color: black;
-    font-size: 1.5em;
+    font-size: 20px;
  
-  }
+}
 
-.weatherData {
-    display:flex;
+#weatherData {
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 50px;
 }
