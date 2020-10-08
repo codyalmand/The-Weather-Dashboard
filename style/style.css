@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url(weather.jpg);
+    background: url("../image/weather.jpg");
 }
 
 #searchInput {
