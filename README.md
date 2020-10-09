@@ -25,3 +25,5 @@ As a traveler, I want to see the weather outlook for multiple cities so I can pl
 <br>
 
 ## Deployed Live Here: https://codyalmand.github.io/The-Weather-Dashboard/
+
+![](weatherdashboard.png)
